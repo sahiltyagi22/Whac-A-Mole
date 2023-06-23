@@ -31,7 +31,7 @@ function moveMole(){
     timerId = null;
     timerId= setInterval(randomSquares , 1000)
 }
-// moveMole()
+moveMole()
 
 function countDown(){
     currentTime --
@@ -43,4 +43,4 @@ function countDown(){
     }
 }
 
-// let countDownTimerId = setInterval(countDown , 1000)
+let countDownTimerId = setInterval(countDown , 1000)
